@@ -10,3 +10,4 @@ class School
     roster[level] ||= []
     roster[level] << student
   end 
+end
