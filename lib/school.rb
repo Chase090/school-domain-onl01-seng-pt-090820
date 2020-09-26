@@ -11,7 +11,7 @@ class School
     roster[level] << student
   end 
   
-  def grade(grade, y)
+  def grade(x, y)
     if x == level
       return y 
     end
