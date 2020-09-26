@@ -18,9 +18,9 @@ class School
 def sort 
   sorted_list = {}
   roster.each do |grade, students| #roster key
-    sorted_list[grade] = students.sort 
+    sorted_list[grade] = students.sort #key grade = student values sort
   end
-  sorted_list
+  sorted_list #call method
 end
   
 
