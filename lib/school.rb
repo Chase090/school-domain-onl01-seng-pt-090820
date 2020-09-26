@@ -12,5 +12,5 @@ class School
   end 
   
   def grade(x, y)
-    if x == 
+    if x == level
 end
