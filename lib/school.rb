@@ -20,6 +20,7 @@ def sort
   sorted_list.each do |grade, students|
     sorted_list[grade] = students.sort 
   end
+  sorted_list
 end
   
 
