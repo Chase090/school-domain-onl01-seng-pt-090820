@@ -13,4 +13,7 @@ class School
   
   def grade(x, y)
     if x == level
+      return y 
+    end
+  end
 end
