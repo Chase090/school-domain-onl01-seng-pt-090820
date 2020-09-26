@@ -12,6 +12,6 @@ class School
   end 
   
   def grade(student_grade)
-  greade[]
+  greade[student_grade]
   end
 end
