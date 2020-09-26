@@ -17,7 +17,7 @@ class School
 
 def sort 
   sorted_list = {}
-  roster.each do |grade, students|
+  roster.each do |grade, students| #roster key
     sorted_list[grade] = students.sort 
   end
   sorted_list
